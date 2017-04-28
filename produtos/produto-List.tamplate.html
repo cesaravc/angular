@@ -1,0 +1,28 @@
+<div class="uk-container uk-container-expand">
+
+	<div class="uk-flex-row">
+		<p>Procurar:
+		   <input  ng-model="$ctrl.query">
+		</p>
+
+		<p>
+			Ordenar Por:
+			<select ng-model="$ctrl.orderProp">
+			<option value="nome">Por Alphabeto</option>
+			<option value="Áno">Por +Novo</option>
+			</select>
+		</p>
+	    		
+	</div>
+</div>
+
+<div class="uk-column-span">
+	<ul>
+		<li ng-repeat="produto in $ctrl.produtos | filter:$ctrl.query | orderBy:$crtl.orderProp" >
+		
+			
+		</li>
+	</ul>
+
+
+</div>

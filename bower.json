@@ -1,0 +1,17 @@
+{
+  "name": "catalogo-produtos",
+  "description": "start->>...",
+  "version": "1.0.0",
+  "homepage": "",
+  "license": "NA",
+  "private": true,
+  "dependencies": {
+    "angular": "1.5.x",
+    "angular-resource": "1.5.x",
+    "jquery": "3.2.x",
+    "angular-animate": "1.5.x",
+    "angular-mocks": "1.5.x",
+    "angular-route": "1.5.x"
+    
+  }
+}
